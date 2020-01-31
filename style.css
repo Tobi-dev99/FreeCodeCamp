@@ -1,0 +1,125 @@
+body{
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #5CDB95;
+    margin: 0;
+    color: #013870;
+    text-align: center;
+}
+
+header{
+    background-color: #013870;
+    display: flex;
+    /* padding: 0 8%; */
+    text-align: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+
+/* ID SELECTOR */
+
+#header-img{
+    width: 10%;
+    height: 3%;
+}
+#nav-bar{
+    align-self: center;
+    width: 50%;
+}
+
+#video{
+    padding: 2%;
+    /* width: 95%; */
+    margin-top: 10%;
+
+}
+#email{
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+#submit{
+    padding: 10px;
+    display: block;
+    margin: 10px auto;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+/* CLASS SELECTOR */
+
+.clear{
+    clear: both;
+}
+
+.sub-heading{
+    font-size: 2rem;
+}
+
+.paragraph{
+    font-size: 1.5rem;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #ecf6de;
+    padding: 5%;
+    font-size: 1.5rem;
+}
+
+/* Feature-Column */
+.feature{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6rem;
+}
+
+.feature-head{
+    font-size: 1.8rem;
+}
+
+.feature-detail{
+    font-size: 1.2rem;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* FOOTer SECTION */
+
+footer{
+    margin-top: 5rem;
+    background-color: #013870;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.social-links{
+    text-decoration: none;
+    color: white;
+    margin-right: 2rem;
+}
+
+
+@media (max-width: 500px){
+    .nav-link{
+        font-size: 1rem;
+    }
+    
+    #video{
+        width: 90%;
+    }
+
+    .feature{
+        flex-direction: column;
+    }
+}
